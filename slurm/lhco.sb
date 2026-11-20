@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH --job-name=lhco
+#SBATCH --constraint="a100|h200|l40s"
+#SBATCH --gpus=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=48G
+#SBATCH --time=12:00:00
+#SBATCH --output=/mnt/scratch/kaflepra/portfolio/logs/lhco.out
+export ENVDIR=/mnt/scratch/kaflepra/portfolio/env_portable
+source /mnt/scratch/kaflepra/portfolio/hpcc/common.sh
+cd $P/lhco-anomaly && python -m pytest -q tests && python scripts/run_benchmark.py

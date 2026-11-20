@@ -1,0 +1,9 @@
+torch
+zuko
+numpy
+pandas
+tables
+h5py
+scikit-learn
+matplotlib
+pytest

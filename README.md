@@ -31,7 +31,7 @@ Each setting was run with 3 seeds. The flows were trained on an NVIDIA GPU on th
 |---|---|---|---|---|---|
 | S/B in signal region | 0 | 0.3% | 0.6% | 1.2% | 2.5% |
 | S/sqrt(B) before any cut | 0 | 0.8 | 1.5 | 3.0 | 6.1 |
-| IAD max SIC | 1.0 | 1.7 | 4.9 | 11.5 | 12.5 |
+| IAD max SIC | 1.0 | 1.8 | 4.9 | 11.5 | 12.5 |
 | CWoLa max SIC | 1.0 | 3.0 | 7.9 | 10.8 | 11.6 |
 | CATHODE max SIC | 1.1 | 2.0 | 3.4 | 5.9 | 10.8 |
 
